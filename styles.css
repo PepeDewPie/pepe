@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700;900&display=swap');
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.connect-button {
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  outline: currentcolor none medium;
+  text-decoration: none;
+  -moz-box-pack: center;
+  justify-content: center;
+  font-size: 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  -moz-box-align: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+  background-color: rgb(253, 234, 241);
+  border: 1px solid rgb(253, 234, 241);
+  color: rgb(255, 0, 122);
+}
+.connect-text {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0px 0.5rem 0px 0.25rem;
+  font-size: 1rem;
+  width: -moz-fit-content;
+  font-weight: 500;
+}
