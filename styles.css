@@ -35,3 +35,47 @@ body {
   width: -moz-fit-content;
   font-weight: 500;
 }
+
+
+/* Dropdown */
+.dropdown {
+  text-align: left;
+}
+
+.dd-header {
+  display: flex;
+  justify-content: space-between;
+  outline-color: currentcolor none medium;
+  font-size: 16px;
+  padding: 0.9rem 1.7rem;
+  border-radius: 49px;
+  user-select: none;
+  font-weight: 500;
+  background-color: #EFEFEF;
+  color: #494949;
+  position:relative;
+}
+.dd-header:hover {
+  cursor: pointer;
+}
+
+.dd-list {
+  border-radius: 49px;
+  background-color: #fbfbfb;
+  padding: 0.7rem;
+  margin-top: -3.8rem;
+  padding-top: 3.8rem;
+  z-index: -1;
+}
+
+.dd-list-item {
+  margin: 0.7rem;
+  padding: 0.3rem;
+  padding-left: 0.5rem;
+  list-style: none;
+}
+.dd-list-item:hover {
+  background-color: rgb(253, 234, 241);
+  cursor: pointer;
+  border-radius: 12px;
+}

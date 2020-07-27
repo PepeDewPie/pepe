@@ -1,4 +1,5 @@
 import React from 'react'
+import { MarketsDropdown } from './MarketsDropdown'
 
 export function PoolForm() {
   return (
@@ -6,6 +7,7 @@ export function PoolForm() {
       <h3>
         Select a prediction market
       </h3>
+      <MarketsDropdown/>
 
       <h3>
         Input your liquidity

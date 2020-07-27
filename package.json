@@ -3,6 +3,7 @@
   "scripts": {
     "build": "next build && next export",
     "start": "next start -p $PORT",
+    "dev": "next",
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
