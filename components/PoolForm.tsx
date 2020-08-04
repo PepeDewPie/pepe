@@ -1,5 +1,6 @@
 import React from 'react'
 import { MarketsDropdown } from './MarketsDropdown'
+import { InputAmount } from './InputAmount'
 
 export function PoolForm() {
   return (
@@ -12,6 +13,7 @@ export function PoolForm() {
       <h3>
         Input your liquidity
       </h3>
+        <InputAmount/>
 
       <span>
         Withdraw your liquidity on Omen before December 31st to avoid loses related to high volatility

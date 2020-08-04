@@ -151,11 +151,8 @@ function App() {
       <Header />
       <div
         style={{
-          display: 'grid',
-          gridGap: '1rem',
-          gridTemplateColumns: '1fr min-content 1fr',
           textAlign: 'center',
-          maxWidth: '50rem',
+          maxWidth: '35rem',
           lineHeight: '2rem',
           margin: 'auto'
         }}
